@@ -73,7 +73,7 @@
 .cover__title {
   position: relative;
   z-index: 1;
-  padding: 162px 49px 131px 47px;
+  padding: 105px 49px 131px 47px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -82,16 +82,16 @@
 }
 
 .aligned-text {
-  margin-top: 4px;
-  margin-left: 6px;
+  margin-top: 61px;
+  margin-left: 2px;
   display: block;
-  padding-bottom: 17px;
+  padding-bottom: 7px;
   line-height: 115%;
 }
 
 .aligned-text_center {
   margin-left: 36px;
-  margin-top: 11px;
+  margin-top: 21px;
   display: block;
   padding-bottom: 19px;
   text-align: center;
@@ -132,11 +132,8 @@
   z-index: 1;
   display: flex;
   justify-content: space-between;
+  padding: 0 0 10px 47px;
   align-items: center;
-  padding: 0 49px 28px 140px;
-
- 
-  
 }
 
 .cover__description-text {
@@ -146,15 +143,13 @@
   line-height: 127.273%;
   text-transform: uppercase;
   word-spacing: 20px;
-  letter-spacing: 0;
-  margin-left: -90px;
-  margin-top: -38px;
- 
+  letter-spacing: 0; 
+  margin-bottom: auto;
 }
 
 .bet-button {
   border: 1px solid #fff;
-  padding: 15px 29px 13px 30px;
+  padding: 9px 29px 13px 30px;
   color: #fff;
   font-weight: 256;
   font-size: 22px;
@@ -185,7 +180,7 @@
 
 .lots__card-list-item {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   color: #ffffff;
 }
 
@@ -232,13 +227,13 @@
 
 .card__text {
   z-index: 2;
-  width: 254px;
-  margin: auto;
-  margin-bottom: 45px;
+  width: calc(100% - 78px);
   color: white;
   font-size: 20px;
   line-height: 24px;
-  text-decoration-line: none; 
+  left: 40px;
+  bottom: 48px;
+  position: absolute;
 }
 
 .lots__look-more-link {
@@ -256,13 +251,12 @@
 .about {
   display: grid;
   column-gap: 25px;
-  padding: 0 21px 178px 33px;
+  padding: 158px 21px 18px 26px;
   grid-template-columns: 328px auto;
 }
 
 .about__logo {
-  margin-top: 154px;
-  margin-left: -12px;
+  
   justify-self: center;
   width: 237px;
   height: 237px;
@@ -282,12 +276,11 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 120px;
-  margin-top: 255px;
+  margin-bottom: 102px;
+  margin-top: 99px;
 }
 
 .about__text {
-  margin-top: -20px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -307,11 +300,12 @@
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
-  margin-left: -7px;
+  margin-top: 160px;
 }
 
 .footer__menu {
   justify-self: center;
+  margin-top: 160px;
 }
 
 .footer__menu-list {
@@ -335,6 +329,7 @@
 }
 
 .footer__social-list {
+  margin-top: 160px;
   display: flex;
   justify-content: end;
   column-gap: 46.5px;
