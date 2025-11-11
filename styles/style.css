@@ -132,7 +132,7 @@
   z-index: 1;
   display: flex;
   justify-content: space-between;
-  padding: 0 0 12px 50px;
+  padding: 0 0 12px 51px;
   align-items: center;
 }
 
@@ -149,19 +149,15 @@
 
 .bet-button {
   border: 1px solid #fff;
-  padding: 10px 29px 13px 51px;
+  padding: 10px 29px 13px 30px;
   color: #fff;
-  font-weight: 256;
+  font-weight: 200;
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
-  margin-right: 35px;
-  margin-bottom:auto;
-  
- 
-  
- 
+  margin-right: 55px;
+  transform: translateY(-17px); 
 }
 
 .lots {
